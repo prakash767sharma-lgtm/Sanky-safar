@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanki Safar - Stories That Move</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">SANKI SAFAR</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#blog" class="nav-link">Blog</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#login" class="nav-link">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <p class="hero-subtitle">WELCOME TO</p>
+            <h1 class="hero-title">Sanki Safar</h1>
+            <p class="hero-description">
+                A personal travel blog featuring stories, photo essays, and travel guides from journeys around the world.
+            </p>
+            <div class="hero-buttons">
+                <a href="#blog" class="btn btn-primary">Explore Stories</a>
+                <a href="#gallery" class="btn btn-secondary">View Gallery</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span class="scroll-text">Follow the journey</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Discover Section -->
+    <section class="discover" id="discover">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">DISCOVER</span>
+                <h2 class="section-title">What You'll Find Here</h2>
+                <p class="section-description">
+                    A collection of travel experiences, visual stories, and practical guides for fellow wanderers.
+                </p>
+            </div>
+            
+            <div class="discover-grid">
+                <!-- Travel Stories -->
+                <div class="discover-card">
+                    <div class="card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+                    </div>
+                    <h3 class="card-title">Travel Stories</h3>
+                    <p class="card-text">Read about adventures, discoveries, and moments from around the world.</p>
+                    <a href="#blog" class="card-link">Explore</a>
+                </div>
+
+                <!-- Photo Gallery -->
+                <div class="discover-card">
+                    <div class="card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+                    </div>
+                    <h3 class="card-title">Photo Gallery</h3>
+                    <p class="card-text">Visual journeys captured through the lens during travels.</p>
+                    <a href="#gallery" class="card-link">Explore</a>
+                </div>
+
+                <!-- Travel Guides -->
+                <div class="discover-card">
+                    <div class="card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="10" r="3"/><path d="M12 21.7C17.3 17 20 13 20 10a8 8 0 1 0-16 0c0 3 2.7 7 8 11.7z"/></svg>
+                    </div>
+                    <h3 class="card-title">Travel Guides</h3>
+                    <p class="card-text">Practical tips and insights for your next adventure.</p>
+                    <a href="#guides" class="card-link">Explore</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="quote-section">
+        <div class="container">
+            <blockquote class="quote">
+                <p>"The world is a book and those who do not travel read only one page."</p>
+                <cite>— Saint Augustine</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Blog Preview Section -->
+    <section class="blog-preview" id="blog">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">LATEST STORIES</span>
+                <h2 class="section-title">From the Blog</h2>
+            </div>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80" alt="Mountain landscape">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-category">Adventure</span>
+                        <h3 class="blog-title">Mountain Escapes: Finding Peace in the Himalayas</h3>
+                        <p class="blog-excerpt">A journey through the world's highest mountain range, discovering hidden monasteries and breathtaking vistas.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80" alt="Kyoto streets">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-category">Culture</span>
+                        <h3 class="blog-title">Kyoto's Hidden Temples: A Photo Essay</h3>
+                        <p class="blog-excerpt">Exploring the ancient capital of Japan and its lesser-known spiritual sanctuaries away from the crowds.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80" alt="Beach sunset">
+                    </div>
+                    <div class="blog-content">
+                        <span class="blog-category">Beach</span>
+                        <h3 class="blog-title">Island Hopping in Southeast Asia</h3>
+                        <p class="blog-excerpt">From Thailand to Indonesia, a month-long adventure through tropical paradises and crystal-clear waters.</p>
+                        <a href="#" class="read-more">Read More →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Preview Section -->
+    <section class="gallery-preview" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">VISUAL JOURNEYS</span>
+                <h2 class="section-title">Photo Gallery</h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1200&q=80" alt="Nature landscape">
+                    <div class="gallery-overlay">
+                        <span class="gallery-location">New Zealand</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800&q=80" alt="Venice canals">
+                    <div class="gallery-overlay">
+                        <span class="gallery-location">Venice, Italy</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800&q=80" alt="Morocco streets">
+                    <div class="gallery-overlay">
+                        <span class="gallery-location">Marrakech, Morocco</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=80" alt="Lake landscape">
+                    <div class="gallery-overlay">
+                        <span class="gallery-location">Banff, Canada</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800&q=80" alt="Swiss Alps">
+                    <div class="gallery-overlay">
+                        <span class="gallery-location">Swiss Alps</span>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-cta">
+                <a href="#" class="btn btn-primary">View Full Gallery</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80" alt="Traveler portrait">
+                </div>
+                <div class="about-content">
+                    <span class="section-label">ABOUT</span>
+                    <h2 class="section-title">The Story Behind Sanki Safar</h2>
+                    <p class="about-text">
+                        Sanki Safar (which roughly translates to "Crazy Journey" in Hindi) started as a personal diary of my travels and has grown into a community of wanderers seeking authentic experiences.
+                    </p>
+                    <p class="about-text">
+                        Through this blog, I share stories that move—tales of people met, cultures discovered, and the transformative power of stepping outside our comfort zones.
+                    </p>
+                    <a href="#" class="btn btn-secondary">Read My Story</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2 class="newsletter-title">Join the Journey</h2>
+                <p class="newsletter-text">Subscribe to receive travel stories, photography tips, and destination guides directly to your inbox.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Enter your email" required class="newsletter-input">
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">SANKI SAFAR</a>
+                    <p class="footer-tagline">Stories that move. Journeys that transform.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Pinterest">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="8" x2="12" y2="21"></line><path d="M5 12H2a10 10 0 0 0 20 0h-3"></path></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-heading">Explore</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#guides">Travel Guides</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-heading">Company</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#press">Press</a></li>
+                        <li><a href="#collaborate">Collaborate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-heading">Legal</h4>
+                    <ul>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                        <li><a href="#cookies">Cookie Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Sanki Safar. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
